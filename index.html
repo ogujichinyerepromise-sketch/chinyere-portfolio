@@ -3,260 +3,278 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chinyere Oguji | Professional Portfolio</title>
+
+<title>Oguji Chinyere Promise | Professional Portfolio</title>
 
 <style>
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f6fa;
-  color: #263449;
-  line-height: 1.7;
+    font-family: Arial, sans-serif;
+    background: #f8f9fc;
+    color: #263238;
+    line-height: 1.7;
 }
 
 header {
-  background: #10243e;
-  color: white;
-  padding: 65px 20px;
-  text-align: center;
+    background: #101f3d;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-header h1 {
-  font-size: 34px;
-  margin-bottom: 10px;
-}
-
-header p {
-  color: #c5d5e8;
-}
-
-nav {
-  background: #183654;
-  padding: 15px;
-  text-align: center;
+header h2 {
+    color: #d4af37;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-  font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.hero {
+    background: #101f3d;
+    color: white;
+    padding: 80px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.hero img {
+    width: 230px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 4px solid #d4af37;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero h3 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 550px;
+}
+
+.button {
+    display: inline-block;
+    background: #d4af37;
+    color: #101f3d;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 section {
-  max-width: 950px;
-  margin: 35px auto;
-  padding: 30px;
-  background: white;
-  border-radius: 10px;
+    padding: 65px 9%;
 }
 
-h2 {
-  color: #173c60;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #dce5ef;
-  padding-bottom: 10px;
+section h2 {
+    color: #101f3d;
+    margin-bottom: 25px;
+    font-size: 28px;
 }
 
-h3 {
-  color: #183654;
-  margin-top: 15px;
+.gold-line {
+    width: 65px;
+    height: 4px;
+    background: #d4af37;
+    margin-bottom: 25px;
 }
 
-.experience {
-  margin-bottom: 30px;
+.card {
+    background: white;
+    padding: 25px;
+    margin: 18px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
 }
 
-.date {
-  color: #64809a;
-  font-size: 14px;
-  font-weight: bold;
+.card h3 {
+    color: #101f3d;
 }
 
-ul {
-  padding-left: 22px;
-  margin-top: 10px;
+.card small {
+    color: #b08b20;
+    font-weight: bold;
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .skills span {
-  background: #e8eff7;
-  padding: 10px 15px;
-  border-radius: 5px;
-  color: #173c60;
+    background: #101f3d;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+.contact {
+    background: #101f3d;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #d4af37;
+}
+
+.contact a {
+    color: #d4af37;
+    text-decoration: none;
 }
 
 footer {
-  background: #10243e;
-  color: white;
-  text-align: center;
-  padding: 25px;
-  margin-top: 40px;
+    background: #09152b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
 }
 
-.email {
-  color: #173c60;
-  font-weight: bold;
-}
+@media(max-width: 700px) {
+    .hero {
+        text-align: center;
+    }
 
+    .hero h1 {
+        font-size: 29px;
+    }
+
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>CHINYERE OGUJI</h1>
-<p>Customer Service | Administrative Support | Virtual Assistance</p>
-<p>Professional Portfolio</p>
+    <h2>Chinyere Oguji</h2>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#experience">Experience</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
+<div class="hero">
+
+    <div>
+        <h1>Oguji Chinyere Promise</h1>
+
+        <h3>Customer Service | Administrative Support | Virtual Assistant</h3>
+
+        <p>
+        I am a dedicated customer service and administrative support
+        professional passionate about helping businesses improve
+        customer experiences, streamline operations and build
+        meaningful client relationships.
+        </p>
+
+        <a class="button" href="Chinyere-CV.pdf" download>
+            Download My CV
+        </a>
+    </div>
+
+    <img src="profile.jpg" alt="Oguji Chinyere Promise">
+
+</div>
 
 <section id="about">
-<h2>About Me</h2>
 
-<p>
-I am a customer-focused and detail-oriented professional with experience
-in customer service, administrative support, banking operations and client
-relationship management.
+    <h2>About Me</h2>
+    <div class="gold-line"></div>
 
-I am passionate about helping businesses deliver excellent customer
-experiences, maintain efficient operations and build lasting relationships
-with their customers.
+    <p>
+    I am a Public Administration graduate of Enugu State University
+    of Science and Technology with experience in customer service,
+    banking support and administrative operations.
 
-I am also continuously developing my skills in CRM tools, virtual assistance
-and digital workplace solutions.
-</p>
+    I have developed skills in customer relationship management,
+    communication, documentation, complaint resolution and
+    administrative coordination.
+
+    I am continuously improving my digital skills and exploring
+    opportunities in virtual assistance, customer success and
+    remote administrative support.
+    </p>
+
 </section>
 
 <section id="experience">
-<h2>Work Experience</h2>
 
-<div class="experience">
-<h3>Customer Service Representative</h3>
-<p class="date">ISON | 2023 – 2024</p>
-<ul>
-<li>Responded to customer enquiries and provided accurate information about products and services.</li>
-<li>Received, documented, and followed up on customer complaints and requests through to resolution.</li>
-<li>Maintained professional communication through telephone, email, and messaging channels.</li>
-<li>Kept accurate customer records and service documentation.</li>
-<li>Coordinated with internal teams to resolve customer issues promptly.</li>
-<li>Built positive customer relationships through responsive, attentive service.</li>
-</ul>
-</div>
+    <h2>Work Experience</h2>
+    <div class="gold-line"></div>
 
-<div class="experience">
-<h3>Customer Service / Banking Support</h3>
-<p class="date">Olive Microfinance Bank | January 2025 – October 2025</p>
-<ul>
-<li>Assisted customers with enquiries and service requests.</li>
-<li>Provided customer support and basic banking-related assistance.</li>
-<li>Supported daily banking operations and record keeping.</li>
-<li>Maintained an organised and professional work environment.</li>
-<li>Collaborated with colleagues to support efficient service delivery.</li>
-</ul>
-</div>
+    <div class="card">
+        <h3>Customer Service Representative</h3>
+        <small>Cross Link International Froid Limited | Jan 2026 – Sept 2026</small>
 
-<div class="experience">
-<h3>Customer Service Representative</h3>
-<p class="date">Cross Link International Froid Limited | January 2026 – September 2026</p>
-<ul>
-<li>Handled customer enquiries and orders through telephone and WhatsApp.</li>
-<li>Followed up on customer orders and resolved complaints.</li>
-<li>Prepared quotations, invoices and customer records.</li>
-<li>Used Sage and Zoho for business documentation and customer-related processes.</li>
-<li>Maintained sales records and supported daily administrative activities.</li>
-<li>Followed up with inactive customers to encourage repeat purchases.</li>
-<li>Supported customer relationships and business development activities.</li>
-</ul>
-</div>
+        <ul>
+            <li>Responded to customer enquiries through phone and WhatsApp.</li>
+            <li>Processed customer orders and followed up on deliveries.</li>
+            <li>Handled customer complaints and coordinated resolutions.</li>
+            <li>Prepared quotations and invoices.</li>
+            <li>Maintained customer records and sales documentation.</li>
+            <li>Used CRM and business tools to support customer operations.</li>
+        </ul>
+    </div>
 
-</section>
+    <div class="card">
+        <h3>Customer Service / Banking Support</h3>
+        <small>Olive Microfinance Bank | Jan 2025 – Oct 2025</small>
 
-<section id="skills">
-<h2>Professional Skills</h2>
+        <ul>
+            <li>Assisted customers with enquiries and service requests.</li>
+            <li>Supported basic banking operations and documentation.</li>
+            <li>Maintained organized records and workspace.</li>
+            <li>Worked with team members to support daily operations.</li>
+        </ul>
+    </div>
 
-<div class="skills">
-<span>Customer Service</span>
-<span>Administrative Support</span>
-<span>Virtual Assistance</span>
-<span>CRM Management</span>
-<span>Customer Relationship Management</span>
-<span>Appointment Scheduling</span>
-<span>Email Management</span>
-<span>Data Entry</span>
-<span>Order Processing</span>
-<span>Complaint Resolution</span>
-<span>Communication</span>
-<span>Record Keeping</span>
-</div>
-</section>
+    <div class="card">
+        <h3>Customer Service Representative</h3>
+        <small>ISON | 2023 – 2024</small>
 
-<section id="projects">
-<h2>Projects & Practical Experience</h2>
-
-<div class="experience">
-<h3>Customer Relationship Management</h3>
-<p>
-Practical experience handling customer enquiries, maintaining customer
-records, following up on orders and managing customer relationships.
-</p>
-</div>
-
-<div class="experience">
-<h3>Customer Support Documentation</h3>
-<p>
-Experience preparing quotations, invoices, sales records and customer
-service documentation using business tools.
-</p>
-</div>
-
-<div class="experience">
-<h3>CRM & Business Automation Practice</h3>
-<p>
-Developing practical skills in CRM platforms, customer support systems
-and workflow automation using tools such as HubSpot, Freshdesk,
-Zendesk and Zapier.
-</p>
-</div>
-</section>
-
-<section id="contact">
-<h2>Contact Me</h2>
-
-<p><strong>Location:</strong> Lagos, Nigeria</p>
-
-<p><strong>Email:</strong>
-<a class="email" href="mailto:ogujichinyerepromise@gmail.com">
-ogujichinyerepromise@gmail.com
-</a>
-</p>
-
-<p>I am open to opportunities in Customer Service,
-Administrative Support and Virtual Assistance.</p>
-
-</section>
-
-<footer>
-<p>© 2026 Chinyere Oguji. All Rights Reserved.</p>
-<p>Professional Portfolio</p>
-</footer>
-
-</body>
-</html>
+        <ul>
+            <li>Responded to customer enquiries and provided service information.</li>
+            <li>Documented and followed up customer complaints.</li>
+            <li>Communicated professionally through telephone and messaging channels.</
